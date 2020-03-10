@@ -25,7 +25,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do|config|
 	end
 
 	config.vm.box_check_update = false
-	config.vbguest.auto_update = false
+	#config.vbguest.auto_update = false
 
 end
 
